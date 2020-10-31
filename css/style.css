@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+body{
+    background: linear-gradient(296.82deg, #70E8F9 0%, #070052 67.78%, #03001C 88.64%) no-repeat;
+    width: 100%;
+    height: 990px;
+}
+main{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.text_banner p{
+    margin-top: 20px;
+    font-size: 30px;
+    font-family: "Roboto Thin",sans-serif;
+}
+.content_click{
+    width: 506px;
+    height: 555px;
+    display: grid;
+    align-items: center;
+    background: white;
+    border-radius: 5px;
+    text-align: center;
+}
+.form{
+    display: grid;
+    padding: 20px 60px;
+}
+.form input{
+    width: 370px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+}
+.form input::placeholder{
+    font-size: 18px;
+    color: black;
+}
+.form input:first-child{
+    margin-top: 0;
+}
+.content_click button{
+    color: white;
+    text-transform: uppercase;
+    font-family: "PT sans", sans-serif;
+    font-size: 14px;
+    background: linear-gradient(180deg, #C7C9FD 0%, #070052 75%);
+    width: 220px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 5px;
+    margin: 0 auto;
+    border: 0;
+    outline: 0;
+}
+.content_click button:hover{
+    background: linear-gradient(0deg, #C7C9FD 0%, #070052 75%);
+}
+.content_click a{
+    color: #145c94;
+    font-family: "FontAwesome", sans-serif;
+    font-size: 24px;
+    margin: 0 auto;
+}
+.content_click a:hover{
+    color: #020d51;
+}
+.chat {
+    border:1px solid #333;
+    margin:15px;
+    width:40%;
+    height:70%;
+    background:#555;
+    color:#fff;
+}
+
+.chat-messages {
+    min-height:93%;
+    max-height:93%;
+    overflow:auto;
+}
+
+.chat-messages__content {
+    padding:1px;
+}
+
+.chat__message {
+    border-left:3px solid #333;
+    margin-top:2px;
+    padding:2px;
+}
+
+.chat__message_black {
+    border-color:#000;
+}
+
+.chat__message_blue {
+    border-color:blue;
+}
+
+.chat__message_green {
+    border-color:green;
+}
+
+.chat__message_red {
+    border-color:red;
+}
+
+.chat-input {
+    min-height:6%;
+}
+#chat-form input {
+    font-family:arial;
+    font-size:16px;
+    vertical-align:middle;
+    background:#333;
+    color:#fff;
+    border:0;
+    display:inline-block;
+    margin:1px;
+    height:30px;
+}
+
+.chat-form__input {
+    width:79%;
+}
+
+.chat-form__submit {
+    width:18%;
+}
